@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../../style/App.css'
+import '../../styles/App.css'
 import Header from '../../components'
 
 const HomePage = () => (
