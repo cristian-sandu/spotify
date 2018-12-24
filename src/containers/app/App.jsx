@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HomePage from './containers'
+import { HomePage } from '..'
 
 const App = () => (
   <div className="App">

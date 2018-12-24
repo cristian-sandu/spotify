@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import App from './App'
-import * as serviceWorker from './config/serviceWorker'
+import { App } from './containers'
+import * as serviceWorker from './spotifySetup'
 
-import './style/index.css'
+import './styles/index.css'
 
 ReactDOM.render(
   <App />,

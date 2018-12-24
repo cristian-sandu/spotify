@@ -1,5 +1,7 @@
+import App from './app/App'
 import HomePage from './home-page/HomePage'
 
 export {
-  HomePage as default,
+  App,
+  HomePage,
 }
