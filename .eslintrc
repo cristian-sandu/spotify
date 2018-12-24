@@ -1,0 +1,25 @@
+{
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "chai": true,
+    "expect": true,
+    "sinon": true,
+    "DEBUG": true,
+    "browser": true
+  },
+  "rules": {
+    "no-console": "error",
+    "prefer-const": "error",
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+  }
+}
