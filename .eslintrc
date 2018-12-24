@@ -20,6 +20,8 @@
   "rules": {
     "no-console": "error",
     "prefer-const": "error",
-    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "linebreak-style": ["error", "windows"],
+    "semi": [2, "never"]
   }
 }
