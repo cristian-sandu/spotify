@@ -1,13 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-.idea/
-*.iml
-
 # dependencies
 node_modules
 package-lock.json
 /.pnp
 .pnp.js
+.grunt
 
 # testing
 /coverage
@@ -37,6 +35,8 @@ jsconfig.json
 .*.swm
 *.orig
 *.bak
+*.iml
 .vscode
+.idea
 
 $Recycle.Bin

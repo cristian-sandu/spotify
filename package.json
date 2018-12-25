@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "decimal": "0.0.2",
+    "dotenv": "^6.2.0",
     "eslint-plugin-destructuring": "^2.1.0",
     "moment": "^2.22.2",
     "prop-types": "^15.6.2",

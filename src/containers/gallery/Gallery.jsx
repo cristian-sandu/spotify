@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 
-import { API_ENDPOINT } from '../../common/constants'
+import { API_ENDPOINT } from 'common/constants'
 
 class Gallery extends React.Component {
   componentDidMount() {

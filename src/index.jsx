@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import { App } from './containers'
+import { App } from 'containers'
 import * as serviceWorker from './spotifySetup'
 
 import './styles/index.css'
