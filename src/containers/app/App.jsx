@@ -1,10 +1,14 @@
 import React from 'react'
 
-import { HomePage } from '..'
+import {
+  Gallery,
+  HomePage,
+} from '..'
 
 const App = () => (
   <div className="App">
     <HomePage />
+    <Gallery />
   </div>
 )
 
