@@ -1,5 +1,3 @@
 import Header from './header/Header'
 
-export {
-  Header as default,
-}
+export { Header as default }

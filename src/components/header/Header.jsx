@@ -5,13 +5,13 @@ import logo from 'styles/logo.svg'
 const Header = () => (
   <>
     <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
+      <img alt="logo" className="App-logo" src={ logo } />
       <p> Yo </p>
       <a
         className="App-link"
         href="https://www.spotify.com"
-        target="_blank"
         rel="noopener noreferrer"
+        target="_blank"
       >
         Listen To Music on Spotify
       </a>

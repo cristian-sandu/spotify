@@ -24,7 +24,8 @@
     "eject": "react-scripts eject",
     "eslint": "eslint src/",
     "eslint:fix": "eslint --fix src/",
-    "eslint:watch": "esw -w --color src/"
+    "eslint:watch": "esw -w --color src/",
+    "prettier": "prettier --write \"**/*.js\""
   },
   "eslintConfig": {
     "extends": "react-app"

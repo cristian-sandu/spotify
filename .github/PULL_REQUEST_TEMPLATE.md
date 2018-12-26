@@ -1,7 +1,7 @@
 ## Changelog
 
 ```changelog
- - SPOTIFY: ...Change Description
+ - SPOTIFY: Description Change
 ```
   
 ## Change Type
@@ -17,12 +17,14 @@
 
 ## Required Checks
 
- - [ ] Tested on Chrome
- - [ ] Tested on IE11
+ - [ ] Documentation
  - [ ] Unit tests
+ - [ ] Tested on Chrome
+ - [ ] Tested on Firefox
+ - [ ] Tested on IE11
  - [ ] npm run eslint
- - [ ] Code examples
+ - [ ] npm run prettier
 
 ## Screenshots
 
- -...
+______________
