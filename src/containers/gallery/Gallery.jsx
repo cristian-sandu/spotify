@@ -14,12 +14,12 @@ class Gallery extends React.Component {
     axios.get(API_ENDPOINT)
       .then((response) => {
         this.setState({
-          fetchResult: response,
+          fetchResult: JSON.stringify(response),
         })
       })
       .catch((error) => {
         this.setState({
-          fetchResult: error,
+          fetchResult: JSON.stringify(error),
         })
       })
   }
