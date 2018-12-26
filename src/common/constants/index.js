@@ -1,6 +1,6 @@
-// Endpoints
 import { freeze } from '../utils'
 
+// Endpoints
 export const API_ENDPOINT = 'https://api.spotify.com'
 
 // Empty values
