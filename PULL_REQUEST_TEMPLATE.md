@@ -1,7 +1,7 @@
-## Description
+## Changelog
 
-```
- - Please include a summary of the change and which issue is fixed.
+```changelog
+ - SPOTIFY: ...Change Description
 ```
   
 ## Change Type
@@ -15,13 +15,7 @@
 - [ ] `Removed`: for now removed features.
 - [ ] `Security`: in case of vulnerabilities.
 
-## Changelog
-
-```changelog
- - SPOTIFY: Details
-```
-
-## Modesty Check
+## Required Checks
 
  - [ ] Tested on Chrome
  - [ ] Tested on IE11
