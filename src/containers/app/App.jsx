@@ -5,11 +5,13 @@ import {
   HomePage,
 } from '..'
 
-const App = () => (
-  <div className="App">
-    <HomePage />
-    <Gallery />
-  </div>
-)
+function App() {
+  return (
+    <>
+      <HomePage />
+      <Gallery />
+    </>
+  )
+}
 
 export default App
