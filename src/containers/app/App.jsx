@@ -1,17 +1,20 @@
 import React from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
+
+import 'styles/App.css'
 
 import {
-  Gallery,
   HomePage,
-} from '..'
+  Search,
+ } from '..'
 
-function App() {
-  return (
-    <>
-      <HomePage />
-      <Gallery />
-    </>
-  )
-}
+const App = () => (
+  <BrowserRouter>
+    <div className="App">
+      <Route exact path="/" component={ HomePage } />
+      <Route exact path="/search" component={ Search } />
+    </div>
+  </BrowserRouter>
+)
 
 export default App
